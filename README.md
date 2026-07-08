@@ -149,16 +149,4 @@ Lapisan keamanan AI:
 4. **Transaction** — semua aksi dalam satu request atomic (rollback jika gagal)
 5. **Audit log** — setiap request AI tercatat (sukses/gagal)
 
-## Catatan Keamanan
 
-- Jangan commit `.env` ke repository
-- Gunakan `.env.example` untuk berbagi konfigurasi tanpa secret
-- Password di-hash dengan bcrypt
-- Error internal tidak diekspos ke client
-
-## Dokumentasi Tambahan
-
-- Operasional & testing lokal: `README_PERSONAL.md` (file pribadi, tidak di-commit)
-- Dokumentasi teknis detail:
-  - `docs/PROJECT_DOCUMENTATION.md`
-  - `docs/PROJECT_DOCUMENTATION.txt`
