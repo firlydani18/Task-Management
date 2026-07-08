@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.tmp_docx/
+*.log
+README_PERSONAL.md
+docs/
+postman/
