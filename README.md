@@ -127,13 +127,18 @@ Import:
 - `postman/Yapindo-Technical-Test.postman_collection.json`
 - `postman/Yapindo-Technical-Test.postman_environment.json`
 
-Urutan test:
+Pilih environment **Yapindo Technical Test - Local**, lalu urutan test:
 
-1. `Login Admin` (token otomatis tersimpan)
+1. `Login Admin` (token otomatis tersimpan ke `{{token}}`)
 2. `Get Projects` → `Create Project` → `Get Project Tasks`
-3. `AI Command`
+3. **AI Query**
+   - `AI Query - High Priority Projects`
+   - `AI Query - Projects by User (Budi)`
+   - `AI Query - Stream High Priority (SSE)` *(plus point)*
+4. `AI Mutate - Create Task` (opsional)
+5. `Get Audit Logs (Admin)`
 
-Detail endpoint AI & monitoring ada di `README_PERSONAL.md`.
+Swagger UI alternatif: `http://localhost:3000/docs`
 
 Collection sudah berisi test assertions otomatis.
 
